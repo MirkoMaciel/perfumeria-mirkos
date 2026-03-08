@@ -163,6 +163,8 @@
     box-sizing: border-box;
     background-color: var(--color-text-wh);
     font-family: var(--font-subtitle);
+
+
 }
 
 .catalog_card h3 {
@@ -198,6 +200,8 @@
     font-size: 22px;
 }
 
+
+
 /* CONTAINER REDES*/
 
 .network_container {
@@ -218,8 +222,10 @@
     justify-content: center;
     font-family: var(--font-primary);
     color: var(--color-surface);
-    letter-spacing: 20px; /* Agrega un espacio entre cada letra incluyendo la ultima*/
-    text-indent: 20px; /* Agrega un espaciado a la izquierda para compensar el desplazamiento de la ultima letras*/
+    letter-spacing: 20px;
+    /* Agrega un espacio entre cada letra incluyendo la ultima*/
+    text-indent: 20px;
+    /* Agrega un espaciado a la izquierda para compensar el desplazamiento de la ultima letras*/
 }
 
 .network_title p {

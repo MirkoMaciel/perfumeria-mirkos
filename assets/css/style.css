@@ -6,6 +6,7 @@
 
 /*2) LAYOUTS: Estructura general de la pagina*/
 @import url(/assets/css/layout/header.css);
+@import url(/assets/css/layout/footer.css);
 
 /*3) COMPONENTS: Componentes de la web - elementos reutilizables*/
 @import url(/assets/css/components/img.css);
