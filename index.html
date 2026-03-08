@@ -5,43 +5,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfumeria Mirko's</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
     <!--HEADER-->
     <header>
-        <div class="header_separator">
-            <p></p>
+        <div class="header_title">
+            <p>ENVIO GRATIS CON TU COMPRA</p>
         </div>
+
+        <div class="header_separator">
+            <div class="header_marquee">
+                <div class="header_paragraph">
+                    <i class="icon icon-check-circle"></i>
+                    <p>Envíos a todo el país</p>
+                    <i class="icon icon-check-circle"></i>
+                    <p>Los mejores perfumes arabes</p>
+                    <i class="icon icon-check-circle"></i>
+                    <p>Precio - Calidad - Aroma</p>
+                    <i class="icon icon-check-circle"></i>
+                    <p>Atención 24/7</p>
+                    <i class="icon icon-check-circle"></i>
+                </div>
+
+                <div class="header_paragraph">
+                    <p>Envíos a todo el país</p>
+                    <i class="icon icon-check-circle"></i>
+                    <p>Los mejores perfumes arabes</p>
+                    <i class="icon icon-check-circle"></i>
+                    <p>Precio - Calidad - Aroma</p>
+                    <i class="icon icon-check-circle"></i>
+                    <p>Atención 24/7</p>
+                    <i class="icon icon-check-circle"></i>
+                </div>
+
+            </div>
+        </div>
+
         <div class="navbar_content">
-            <div class="navbar_button"></div>
-            <div class="navbar_logo"></div>
-            <div class="navbar_icon_cart"></div>
+            <div class="navbar_button"><i class="header_icon icon-search"></i></div>
+            <div class="navbar_logo"><img src="assets/img/logo_mm.png" alt="logo_perfumeria" id="logo_perfumeria"></div>
+            <div class="navbar_icon_cart"><i class="header_icon icon-cart"></i></div>
         </div>
     </header>
+
     <!--Content main-->
     <main class="main_container">
         <!--CONTAINTER COMERCIO-->
         <section class="trade_container">
-            <div class="trade_icon"></div>
-            <div class="trade_info"></div>
+            <div class="trade_icon">
+                <img src="assets/img/portada_perfumeria.webp" alt="">
+            </div>
+            <div class="trade_info">
+                <h2>Perfumes Premium</h2>
+                <p class=""> Perfumes de calidad, intensos, duraderos</p>
+                <div class="trade_content_btn">
+                    <div class="simulation_btn"><i class="icon icon-check-circle"></i>Envíos a todo el país</div>
+                    <div class="simulation_btn"><i class="icon icon-check-circle"></i>Venta minorista</div>
+                </div>
+                <div class="main_separator"></div>
+                <div class="trade_info_button">
+                    <a href="collections.html" target="_blank">VER CATALOGO</a>
+                </div>
+            </div>
         </section>
         <div class="main_separator"></div>
         <!-- CONTAINER CATALOG-->
         <section class="catalog_container">
-            <div class="catalog_title"></div>
+            <div class="catalog_title"><i class="icon icon-gift"></i>
+                <h2>Catálogo</h2><i class="icon icon-gift"></i>
+            </div>
             <div class="catalog_product">
-                <div class="catalog_product">
-                    <div class="catalog_card"></div>
+                <div class="product">
+                    <div class="catalog_card">
+                        <img src="assets/img/her_confession.jpeg" alt="">
+                        <h3>Productos de mujer</h3>
+                        <div class="simulation_btn">
+                            <i class="icon icon-eye" id="eyes-card"></i>
+                            <a href="products/women.html" target="_blank">Ver catálogo</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="catalog_product">
-                    <div class="catalog_card"></div>
+                <div class="product">
+                    <div class="catalog_card">
+                        <img src="assets/img/viking_kashmir.jpeg" alt="">
+                        <h3>Productos de hombre</h3>
+                        <div class="simulation_btn">
+                            <i class="icon icon-eye" id="eyes-card"></i>
+                            <a href="products/men.html" target="_blank">Ver catálogo</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="catalog_product">
-                    <div class="catalog_card"></div>
+                <div class="product">
+                    <div class="catalog_card">
+                        <img src="assets/img/flor_flory.jpeg" alt="">
+                        <h3>Productos unisex</h3>
+                        <div class="simulation_btn">
+                            <i class="icon icon-eye" id="eyes-card"></i>
+                            <a href="products/all.html" target="_blank">Ver catálogo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!--CONTAINER REDES-->
+        <section class="network_container">
+            <div class="network_title">
+                <h2>REDES</h2>
+                
+                <p>Compartí, explora y seguinos en nuestras redes</p>
+            </div>
+            <div class="network_content">
+                <ul class="list_icon_network">
+                    <li class="element_icon "><a href=""><i class="icon icon-facebook"></i></a></i></li>
+                    <li class="element_icon "><a href=""><i class="icon icon-instagram"></i></a></i></li>
+                    <li class="element_icon "><a href=""><i class="icon icon-whatsapp"></i></a></i></li>
+                </ul>
+            </div>
+        </section>
+
         <!--CONTAINER GALERY-->
         <section class="galery_container">
             <div class="galery_title"></div>
@@ -53,6 +137,7 @@
             </div>
         </section>
         <div class="main_separator"></div>
+
         <!--CONTAINER PRODUCTO DESTACADO-->
         <section class="product_featured">
             <div class="product_featured_title"></div>
@@ -67,18 +152,7 @@
                 </div>
             </div>
         </section>
-        <!--CONTAINER REDES-->
-        <section class="network_container">
-            <div class="network_title"></div>
-            <div class="network_content">
-                <ul class="list_icon_network">
-                    <li class="element_icon"></li>
-                    <li class="element_icon"></li>
-                    <li class="element_icon"></li>
-                    <li class="element_icon"></li>
-                </ul>
-            </div>
-        </section>
+
         <!--CONTAINTER CONTACTO-->
         <section class="contact_container">
             <div class="contact_content">

@@ -1,0 +1,54 @@
+:root {
+    --color-primary: #173b6a;
+    --color-secondary: #0f172a;
+    --color-accent: #f4b400;
+    --color-bg: #ffffff;
+    --color-bg2: #e0c098;
+    --color-bg3: rgb(75,63,41);
+    --color-bg-btn:#e6e0db;
+    --color-surface: #f8fafc;
+    --color-text: #1e293b;
+    --color-foreground: rgb(79, 60, 46);
+    --color-text-light: #64748b;
+    --color-text-wh: #f8fafc;
+    --color-border: #e2e8f0;
+
+    --font-primary: 'Inter', Arial, sans-serif;
+    --font-heading: 'Poppins', Arial, sans-serif;
+    --font-title: "Montserrat", sans-serif;
+    --font-subtitle: "Lora", serif;
+    --font-text: 'Roboto';
+    --font-wh : bold;
+    --font-wh-btn: 600;
+
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+    --container-width: 1200px;
+    --transition: 0.6s ease;
+
+    --width-img_logo: 48px;
+    --heigth-img_logo: 48px;
+
+
+}
+
