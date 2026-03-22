@@ -1,6 +1,6 @@
 /* Regla de oro: lo último sobreescribe lo anterior, asi que vamos a definir primero lo principal y luego lo más especifico*/
 /*1)BASE: Variables globales y reset */
-@import url(assets/css/base/reset.css);
+@import url(/assets/css/base/reset.css);
 @import url(/assets/css/base/variables.css);
 
 /*2) LAYOUTS: Estructura general de la pagina*/
