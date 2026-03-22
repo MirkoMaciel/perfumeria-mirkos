@@ -1,0 +1,103 @@
+/* Variables de color para fácil edición */
+:root {
+    --bg-main: #121212;
+    --card-bg: #1e1e1e;
+    --accent-gold: #d4af37;
+    --text-white: #ffffff;
+    --text-gray: #a0a0a0;
+}
+
+.product_featured {
+    background-color: var(--color-bg3);
+    padding: 40px 10px;
+    font-family: 'Arial', sans-serif; /* O la que uses en tu proyecto */
+}
+
+.product_featured_title {
+    color: var(--color-surface);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Contenedor de la lista */
+.list_product_featured {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 Columnas */
+    grid-template-rows: repeat(2, auto);    /* 2 Filas automáticas */
+    gap: 15px; /* Espacio entre tarjetas */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Estilo de cada tarjeta (LI) */
+.element_card {
+    background-color: var(--color-bg2);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.catalog_card2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+/* Imagen del perfume */
+.catalog_card2 img {
+    width: 100%;
+    height: 120px; /* Altura fija para que todas sean iguales */
+    object-fit: cover; /* Ajusta la imagen sin deformar */
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* Título del producto */
+.catalog_card2 h3 {
+    color: var(--text-white);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Contenedor del "botón" de simulación */
+.simulation_btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--accent-gold);
+    padding: 8px 12px;
+    border-radius: 20px;
+    width: 90%; /* Casi todo el ancho de la tarjeta */
+    background-color: var(--color-bg3);
+}
+
+.simulation_btn2 a {
+    text-decoration: none;
+    color: var(--color-surface);
+    font-size: 0.70rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#eyes-card {
+    color: var(--color-surface);
+    font-size: 0.9rem;
+}
+
+/* Efecto al tocar en mobile */
+.element_card:active {
+    transform: scale(0.95);
+    border-color: var(--accent-gold);
+}
